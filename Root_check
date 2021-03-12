@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#if [ $(UID} -ne 0 ]
+if [ $(UID} -ne 0 ]
 echo
-#then 
+then 
 echo
 echo "You need root access"
 echo
@@ -14,6 +14,6 @@ fi
 then 
        echo "this sever is very small"
 
-      exit 2
+      exit 0
 
 fi
