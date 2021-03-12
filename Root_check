@@ -21,6 +21,6 @@ fi
 then 
        echo "this sever is very small"
 
-      exit 0
+      exit 1
 
 fi
