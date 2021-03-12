@@ -1,16 +1,23 @@
 #!/bin/bash
 
 if [ $(UID} -ne 0 ]
+
 echo
+
 then 
+
 echo
+
 echo "You need root access"
+
 echo
+
 exit 0
+
 fi
 ## check number of processors
 
- if [ `nproc` -eq 1 ]
+ C= `nproc` 
 then 
        echo "this sever is very small"
 
